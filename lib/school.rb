@@ -3,6 +3,11 @@ class School
 def initialize()
 end
 
+def name
+end
+
+def grade
+end
 
 roster = {}
 
