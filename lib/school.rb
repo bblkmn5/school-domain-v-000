@@ -24,8 +24,5 @@ def sort
     end
     sorted_students
   end
-  end
-
-
 
 end
