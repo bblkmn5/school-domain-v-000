@@ -9,7 +9,7 @@ def initialize(name)
 end
 
 def add_student(student_name, grade)
-  roster[grade] || roster[grade] = []
+  roster[grade] || roster[grade] = [] #or roster[grade] ||= []
   roster[grade] << student_name
 end
 
@@ -18,11 +18,11 @@ def grade(grade)
 end
 
 def sort
-    sorted_students = {}
+    sort_students = {}
     roster.each do |grade, students|
-      sorted_students[grade] = students.sort
+      sort_students[grade] = students.sort
     end
-    sorted_students
+    sort_students
   end
 
 end
